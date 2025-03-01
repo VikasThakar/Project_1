@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url(pexels-souvenirpixels-417074.jpg);
+        background-repeat: no-repeat;
+        background-size: 1700px 780px;
+        height: 100vh;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      div {
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        opacity: 0.7;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h3 {
+        color: white;
+        margin-bottom: 10%;
+      }
+      input, button {
+        margin: 7px 0;
+        padding: 9px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: rgb(0, 128, 0);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 0px;
+      }
+      button:hover {
+        background-color: rgb(214, 21, 231);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="https://utu.ac.in/">
+        <h3>Sign In</h3>
+        <input type="text" required size="20px" placeholder="Login ID"><br>  
+        <input type="password" required size="20px" placeholder="Password"><br>
+        <button type="submit"> Sign In </button><br>
+      </form>
+    </div>
+  </body>
+</html>

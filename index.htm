@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopNow</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("vvvvvvvvv.avif");
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+      header {
+        background-color: rgb(230, 153, 38);
+        text-align: center;
+        padding: 20px 0;
+      }
+      header h1 {
+        margin-bottom: 10px;
+      }
+      header p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      nav {
+        background-color: black;
+        padding: 10px 0;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style-type: none;
+      }
+      nav a {
+        color: yellow;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      .pc {
+        text-align: center;
+        padding: 50px 20px;
+      }
+      .pc h1 {
+        margin-bottom: 40px;
+        font-size: 2rem;
+      }
+      .pr {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .pi {
+        text-align: center;
+        width: 220px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+      }
+      .pi img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .pi h3 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+      }
+      .pi p {
+        padding: 5%;
+      }
+      .pi button {
+        padding: 10px 20px;
+        background-color: black;
+        cursor: pointer;
+        color: white;
+      }
+      .pi button:hover {
+        background-color: #e67e00;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ShopNow</h1>
+      <p>Your one-stop Online Shop!</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <input
+            type="search"
+            id="search"
+            placeholder="Search"
+            style="position: absolute; right: 7px"
+          />
+        </li>
+      </ul>
+    </nav>
+    <br /><br /><br /><br />
+    <div class="pc">
+      <h1 style="color: black">Discover the Best Deals Today !!</h1>
+      <br /><br /><br /><br />
+      <div class="pr">
+        <div class="pi">
+          <img src="BMW.jpg" alt="BMW 340i" />
+          <h3>Product 1</h3>
+          <p>$19,000.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="pi">
+          <img src="BMW1.jpg" alt="BMW M320i" />
+          <h3>Product 2</h3>
+          <p>$29,000.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="pi">
+          <img src="BMW2.jfif" alt="BMW M2" />
+          <h3>Product 3</h3>
+          <p>$190,000.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="pi">
+          <img src="BMW3.jpg" alt="BMW Bay" />
+          <h3>Product 4</h3>
+          <p>$299,999.99</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h4>&copy; 2025 ShopNow. All rights reserved.</h4>
+    </footer>
+  </body>
+</html>
